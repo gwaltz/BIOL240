@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", function() {
     toggleButton.addEventListener("click", function() {
     if (additionalInfoElement.style.display === "none") {
         additionalInfoElement.style.display = "block";
-        toggleButton.textContent = "Hide additional information";
+        toggleButton.textContent = "Close";
     } else {
         additionalInfoElement.style.display = "none";
-        toggleButton.textContent = "Show additional information";
+        toggleButton.textContent = "More";
     }});
 
 });
