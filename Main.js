@@ -15,5 +15,4 @@ document.addEventListener("DOMContentLoaded", function() {
         additionalInfoElement.style.display = "none";
         toggleButton.textContent = "More";
     }});
-
 });
