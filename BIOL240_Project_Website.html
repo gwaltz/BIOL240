@@ -2,15 +2,16 @@
 <html>
 <nav>
 	<ul>
-	  <li><a href="#">Home</a></li>
-	  <li><a href="#">Plants</a></li>
-	  <li><a href="#hummingbird-section">Hummingbird</a></li>
-	  <li><a href="#">Contact</a></li>
+		<li><a href="#">Home</a></li>
+		<li><a href="#plants-section">Plants</a></li>
+		<li><a href="#hummingbird-section">Hummingbird</a></li>
+		<li><a href="#">Contact</a></li>
 	</ul>
 </nav>
+
 <head>
 	<title>Bioenergetics Project</title>
-					
+
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<script src="Main.js"></script>
@@ -19,61 +20,69 @@
 <body>
 	<header>
 		<br><br><br><br>
-			<h1><b>Bioenergetics Project</b></h1>
-			<p><b>By George Waltz</b></p>
+		<h1><b>Bioenergetics Project</b></h1>
+		<p><b>By George Waltz</b></p>
 	</header>
 	<main>
 		<section>
-			 
 			<h2>Outline</h2>
 			<ul>
-				<li>
-					<h3>How C02 becomes energy in plants</h3>
+				<section>
+					<h3 id="plants-section">How C02 becomes energy in plants</h3>
 					<p>Plants photosynthesis and Calvin Cycle to create glucose</p>
-					<button id="my-button">Click me</button>
-				</li>
-				<li>
-					<h3 id="hummingbird-section">How hummingbird recieves energy from plant sugars</h3>
-					<button id="toggle-button">More</button>
-					<div id="additional-info" style="display: none;">
-					<section> 
-						<h3>Resperatory Cycle and breakdown of food into usable energy</h3>
-						More aabout reperatory cycle and energy from plants
-						<img src="Website-images/hummingbird1.jpg" alt="hummingbird" style="width: 50%; height: auto;">
-					</section>
+					<button id="toggle-button-1">More</button>
+					<div id="additional-info-1" style="display: none;">
+						<section>
+							<p>Plant</p>
+						</section>
 					</div>
-				</li>
-				<li>
+					<script>
+						toggleInfo("1");
+					</script>
+					<button id="my-button">Click me</button>
+				</section>
+				<section>
+					<h3 id="hummingbird-section">How hummingbird recieves energy from plant sugars</h3>
+					<button id="toggle-button-2">More</button>
+					<div id="additional-info-2" style="display: none;">
+						<section>
+							<h3>Resperatory Cycle and breakdown of food into usable energy</h3>
+							More aabout reperatory cycle and energy from plants
+							<img src="Website-images/hummingbird1.jpg" alt="hummingbird"
+								style="width: 50%; height: auto;">
+						</section>
+					</div>
+					<script>
+						toggleInfo("2");
+					</script>
+				</section>
+				<section>
 					<h3>Energy and its purpose/use</h3>
-					<p>Energy budgeting/ use in favorable environment/ how different environmental changes may change<br>
-						their enrgy budgetting and behavior
-					</p>
-				</li>
-				<li>
+					<button id="toggle-button-3">More</button>
+					<div id="additional-info-3" style="display: none;">
+						<p>Energy budgeting/ use in favorable environment/ how different environmental changes may
+							change<br>
+							their enrgy budgetting and behavior
+						</p>
+					</div>
+					<script>
+						toggleInfo("3")
+					</script>
+				</section>
+				<section>
 					<h3>How is this observed</h3>
-					<p>What experiments and observation can be used to prove this is the behavior of animals and energy</p>
-				</li>
-			</ul>
-		</section>
-		<section>
-			<h2>Organisms</h2>
-			<ul>
-				<li>
-					<h3>Hummingbird</h3>
-					<p>Extinct arthropods that lived in the oceans during the Paleozoic Era</p>
-				</li>
-				<li>
-					<h3>Tyrannosaurus Rex</h3>
-					<img src="t-rex.jpg" alt="T-Rex">
-					<p>Large, carnivorous dinosaur that lived during the Late Cretaceous period</p>
-				</li>
-				<li>
-					<h3>Humans</h3>
-					<img src="humans.jpg" alt="Humans">
-					<p>Modern humans that evolved in Africa and spread across the world</p>
-				</li>
+					<button id="toggle-button-4">More</button>
+					<div id="additional-info-4" style="display: none;">
+					<p>What experiments and observation can be used to prove this is the behavior of animals and energy
+					</p>
+					</div>
+					<script>
+						toggleInfo("4");
+					</script>
+				</section>
 			</ul>
 		</section>
 	</main>
 </body>
+
 </html>
