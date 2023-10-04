@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<nav>
+	<ul>
+		<li><a href="#plants-section">Plants</a></li>
+		<li><a href="#hummingbird-section">Hummingbird</a></li>
+		<li><a href="#energy-consumption">Energy Consumption</a></li>
+		<li><a href="#testing-consumption">Experimenting Energy Consumption</a></li>
+	</ul>
+</nav>
+
+<head>
+	<title>Bioenergetics Project</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="Main.js"></script>
+</head>
+
+<body>
+	<header>
+		<br><br><br><br><br>
+		<h1><b>Follow the Electrons</b></h1>
+		<p style="margin-top: 5px;"><b>By George Waltz</b></p>
+
+	</header>
+	<main>
+		<section>
+			<h2 id="intro-section">Outline</h2>
+			<p>
+				This project will outline of the processes and methods organisms use to turn molecules like CO2
+				and H20 into a useable format of energy like ATP. We will start at the level of a plant; and follow CO2
+				and its role in photosynthesis.
+				Then we will look at how the nectur produced by plants, is used by animals to create energy. </p>
+			<p>
+				After understanding the ways in which these organisms produce energy, we will look at how different
+				abiotic and biotic factors may change the energy production processes -- what aspects of the energy
+				cycle will change in
+				order to sustain the production ofenergy? Knowing how energy cycles change, will allow us to observe
+				these changes through experimentation.
+			</p>
+			<ul>
+				<section style="overflow: hidden;">
+					<h3 id="plants-section">How plants Create Energy</h3>
+					<img src="Website-images/photosynthesis-diagram.webp" alt="Image" class="float-right"
+						style="width: 40%; height: auto;"">
+					<p> Plants incorporates carbon dioxide from the air into sugars 
+						in the nectar through the process of photosynthesis. The energy 
+						required for this conversion is obtained from sunlight where ATP 
+						and NADPH are produced. These energy carriers,balong with CO2, are
+						then used in the light-independent reactions to synthesize sugar molecules.
+					</p>
+					<br><br><br><br><br><br><br>
+					<button id="toggle-button-1">More</button>
+					<div id="additional-info-1" style="display: none;">
+						<section>
+
+							<p>When a plant takes up carbon dioxide (CO2) from the air and converts it into
+								sugar/glucose. This process is known as photosynthesis. Photosynthesis occurs in
+								specialized structures called chloroplasts, which is found in the leaves of a
+								plant.<br><br>
+
+								The pathway starts with the intake of CO2 from the atmosphere through tiny openings
+								called stomata on the surface of the leaves. These stomata allow gases to enter and exit
+								the plant. CO2 then diffuses into the cells containing chloroplasts.<br><br>
+
+								During photosynthesis, the energy needed to convert CO2 into sugar is obtained from
+								sunlight. Sunlight is absorbed by pigments called chlorophyll, located within the
+								chloroplast.
+							</p>
+							<img src="Website-images/electron-transport-chain-diagram.png"
+								alt="electron-transport-chain" style="width: 100%; height: 280px;">
+							<p>
+								Sunlight energy is used to generate ATP and NADPH as seen in the figure above. These
+								molecules are produced through a process called photophosphorylation. The captured
+								energy also splits water molecules into oxygen and hydrogen ions.<br><br>
+
+								The ATP and NADPH generated from sunlight then move on to be used in the Calvin cycle.
+								In this stage, carbon dioxide is combined with the hydrogen ions and energy from ATP and
+								NADPH to produce sugar molecules. This process is known as carbon fixation and uses the
+								RuBisCO enzyme to create glucose.<br><br>
+
+
+							</p>
+
+						</section>
+					</div>
+					<script>
+						toggleInfo("1");
+					</script>
+				</section>
+				<br>
+				<section style="overflow: hidden;">
+					<h3 id="hummingbird-section">How hummingbird recieves energy from plant sugars</h3>
+					<img src="Website-images/homemade-hummingbird-nectar.jpg" alt="Image" class="float-right"
+						style="width: 35%; height: auto;"">
+					<p>To transform nectar into a usable form of energy, the hummingbird undergoes cellular resperation.
+						Cellular resperation utilizes glycolysis, the citric acid cycle, the electron transport chain,
+						and oxidative
+						phosphorylation to transform sugar into energy for its hovering activity. Glycolysis occurs in
+						the cytoplasm, while the citric acid cycle and oxidative phosphorylation take place in the
+						mitochondria. The electron transport chain is located in the inner mitochondrial membrane. These
+						pathways work in together to extract energy from sugar molecules and convert it into ATP, allowing
+						the hummingbird to sustain its hovering motion.</p>
+						<br><br><br><br><br><br><br>
+					<button id="toggle-button-2">More</button>
+					<div id="additional-info-2" style="display: none;">
+						<section style="overflow: hidden;">
+							<h3>Resperatory Cycle and breakdown of food into usable energy</h3>
+							<img src="Website-images/resp-cycle.1" alt="hummingbird" class="float-right"
+								style="width: 50%; height: auto;">
+								<p>
+									Glycolysis is the initial pathway that occurs in the cytoplasm of the bird's cells. During
+									glycolysis, sugar is broken down into pyruvate molecules. This process involves a
+									series of enzymatic reactions and generates a small amount of ATP and NADH.<br><br>
+									Krebs cycle: After glycolysis, the pyruvate molecules generated enter
+									the mitochondria, where the citric acid cycle takes place. The citric acid cycle occurs
+									within the mitochondrial matrix. During this cycle, the pyruvate molecules are further
+									broken down, releasing carbon dioxide. The process generates NADH, FADH2, and additional ATP
+									molecules.<br><br>
+									Electron Transport Chain: The NADH and FADH2 molecules generated in glycolysis and the
+									citric acid cycle enter the electron transport chain, which is located in the inner
+									mitochondrial membrane. The ETC consists of a series of protein complexes that facilitate
+									the transfer of electrons from NADH and FADH2. As the electrons move through the ETC,
+									protons are pumped across the inner membrane, creating a proton gradient.<br><br>
+									Oxidative phosphorylation is the final step in energy production
+									and takes place in the inner mitochondrial membrane. It is closely connected to the electron
+									transport chain. The proton gradient generated during electron transport is utilized by ATP
+									synthase, an enzyme embedded in the inner membrane. ATP synthase uses the flow of protons to
+									drive the synthesis of ATP, which serves as the primary energy source for cellular
+									processes.<br>
+									</p>
+						</section>
+					</div>
+					<script>
+						toggleInfo("2");
+					</script>
+				</section>
+				<br>
+				<section>
+					<h3 id="energy-consumption">Energy Consumption and Biotic and Abiotic Factors</h3>
+					<p>By efficiently allocating their energy resources in a favorable environment, both the plant and
+						the bird can ensure the optimization of their physiological processes, growth, reproduction, and
+						adaptation to challenges. These energy budgeting strategies help maintain homeostasis, allowing
+						them to thrive and sustain their respective life functions in their respective ecosystems.</p>
+						<p>The allocation of energy by both the plant and the bird in a favorable environment is influenced by biotic and
+							abiotic factors. Biotic factors refer to living organisms, such as other plants, animals, and microorganisms, while
+							abiotic factors encompass non-living components like temperature, light, water availability, soil composition, and
+							climate conditions.
+						</p>
+						<p> 
+							The energy allocation of both the plant and the bird is influenced by the interactions and dynamics of biotic
+							factors and abiotic factors. They must adapt and allocate their energy
+							resources based on the availability of resources, competition, predators, and the challenges of the
+							surrounding ecosystem. The balance between biotic and abiotic factors shapes the energy budgeting strategies of
+							organisms. This ultimately influences their survival, growth, reproduction, and overall ecological interactions.
+						</p>
+					<button id="toggle-button-3">More</button>
+					<div id="additional-info-3" style="display: none;">
+						<section>
+							<h3>Energy budgeting</h3>
+							<p><b><u>Acquisition of Energy:</u></b><br>
+						
+								<b>Plant:</b> The plant will allocate a significant portion of its energy towards photosynthesis,
+								capturing sunlight and converting it into chemical energy in the form of glucose.
+								Photosynthesis is a vital process for plants to generate their own food.<br><br>
+						
+								<b>Bird:</b> The bird will allocate its energy towards foraging and acquiring food. It will engage
+								in activities such as searching for nectar, insects, or seeds to obtain the necessary
+								nutrients and energy it needs for its metabolic processes.<br><br>
+						
+								<b><u>Maintenance and Growth:</u></b><br>
+						
+								<b>Plant:</b> The plant will allocate energy towards maintaining its physiological functions, such as cellular
+								respiration,
+								water uptake, nutrient absorption, and transport. Additionally, it will allocate energy towards growth,
+								including the
+								development of roots, stems, leaves, and reproductive structures.<br><br>
+								<b>Bird:</b> The bird will allocate energy towards maintaining its basic bodily functions, such as respiration,
+								digestion,
+								circulation, and thermoregulation. Energy will also be allocated towards growth and maintenance of feathers,
+								muscles, and
+								organs.<br><br>
+						
+								<b><u>Reproduction:</u></b><br>
+						
+								<b>Plant:</b> The plant will allocate energy towards reproductive processes, including the production of
+								flowers, fruits, and
+								seeds. This allocation ensures successful pollination, fertilization, and dispersal of offspring to propagate
+								the
+								species.<br><br>
+								<b>Bird:</b> The bird will allocate energy towards reproductive behaviors, such as courtship displays, mating,
+								and
+								nest-building. Energy will also be invested in egg production, incubation, and caring for the young
+								birds.<br><br>
+						
+								<b><u>Adaptation to Environmental Challenges:</u></b><br>
+						
+								<b>Plant:</b> The plant will allocate energy towards defense mechanisms against environmental challenges, such
+								as producing
+								chemical compounds to deter herbivores or developing physical adaptations like thorns or tough leaves to resist
+								predation or extreme weather conditions.<br><br>
+								<b>Bird:</b> The bird will allocate energy towards adaptations that enhance its survival, such as flight for
+								efficient foraging
+								and evading predators. Energy will also be directed towards maintaining body temperature, especially in
+								fluctuating
+								environments, through activities like preening and fluffing feathers.
+							</p>
+							<h3>Abiotic and Biotic Factors</h3>
+							<p>
+								<b><u>Biotic Factors:</u></b><br>
+								<b>Plant:</b> The plant's energy allocation is influenced by interactions with other organisms. For example, competition for
+								resources, such as sunlight, water, and nutrients, from neighboring plants may affect the plant's energy allocation
+								towards growth and reproduction. The presence of pollinators and their efficiency in transferring pollen may influence
+								the plant's allocation towards reproductive efforts.<br><br>
+								<b>Bird:</b> The bird's energy allocation can be influenced by biotic factors such as food availability, competition with other
+								bird species for resources, and interactions with predators. The presence of preferred food sources, such as nectar-rich
+								flowers or abundant insect populations, will impact the bird's energy allocation towards foraging and reproduction.
+								Interactions with other birds, such as territorial disputes or cooperative behaviors, can also influence energy
+								allocation.<br><br>
+								<b><u>Abiotic Factors:</u></b><br>
+
+								<b>Plant:</b> Abiotic factors play a significant role in energy allocation for plants. Sunlight availability determines the
+								energy available for photosynthesis, influencing the plant's allocation towards growth and reproduction. Water
+								availability affects the plant's ability to perform essential physiological processes and allocate energy towards
+								maintaining turgidity, nutrient transport, and osmoregulation. Soil composition, nutrient availability, and temperature
+								also impact the plant's energy allocation for growth and defense mechanisms.<br><br>
+								<b>Bird:</b> Abiotic factors such as temperature, light availability, and weather conditions influence the bird's energy
+								allocation. Temperature affects metabolic rates and energy expenditure for thermoregulation. Light availability impacts
+								foraging efficiency and activity patterns. Weather conditions, such as rainfall or extreme temperatures, can influence
+								the bird's energy allocation towards seeking shelter or adapting behavior to ensure survival.
+
+
+							</p>
+						
+						</section>
+					</div>
+					<script>
+						toggleInfo("3")
+					</script>
+				</section>
+				<br>
+				<section>
+					<h3 id="testing-consumption">Experimenting</h3>
+					<p>the energy allocation of both the plant and the bird is influenced by the interactions and dynamics of biotic factors
+					(other organisms) and abiotic factors (environmental conditions). They must adapt and allocate their energy resources
+					based on the availability of resources, competition, predation risk, and the challenges posed by the surrounding
+					ecosystem. The balance between biotic and abiotic factors shapes the energy budgeting strategies of organisms,
+					ultimately influencing their survival, growth, reproduction, and overall ecological interactions.</p>
+					<button id="toggle-button-4">More</button>
+					<div id="additional-info-4" style="display: none;">
+						<section>
+							<p><b>Hypothesis: </b>The challenge of shade would negatively impact photosynthesis, cellular
+								respiration, and homeostasis (energy balance) in both the plant and the bird.<br><br>
+								<b><u>Impact on Photosynthesis:</u></b><br>
+								In shade, the availability of sunlight decreases, which directly affects the plant's ability to undergo photosynthesis.
+								Reduced light intensity leads to a lower rate of photosynthesis in the plant, as it is unable to capture sufficient
+								light energy for the process. This, in turn, would limit the production of glucose, the primary energy source for both
+								the plant and the bird.<br><br>
+								<b><u>Impact on Cellular Respiration:</u></b><br>
+								With reduced photosynthesis, there would be a decrease in the production of glucose in the plant. As a result, the plant
+								would have limited carbohydrates available for cellular respiration. Cellular respiration, which is the process by which
+								cells generate ATP, would also be impacted. The reduced availability of glucose would lead to a decrease in ATP
+								production, negatively affecting energy availability for metabolic processes in both the plant and the bird. Birds wil
+								also need to spend more energy to find more flowers due their decresed production. <br>
+								<b><u>Impact on Homeostasis:</u></b>
+								The reduced energy availability due to limited photosynthesis and cellular respiration would disrupt the energy balance
+								and homeostasis in both the plant and the bird. The plant may experience decreased growth, development, and reproduction
+								due to insufficient energy reserves. Similarly, the bird may face challenges in meeting its energy requirements for
+								maintaining bodily functions, flight, foraging, and reproduction.<br>
+							</p>
+							<h3>Experiment:</h3>
+							<p>
+								To test the hypothesis, an experiment could be designed to compare the physiological responses of plants and birds in
+								shaded versus non-shaded environments. <br><br>
+	
+	
+								<b><u>Plant Study:</u></b><br><br>
+							   
+								-Select two groups of identical plant species, with one group placed in a shaded area and the other group in a well-lit
+								area.<br>
+								-Monitor and measure parameters such as photosynthetic rate, chlorophyll content, growth rate, and carbohydrate levels in
+								both groups over a specific time period.<br>
+								-Analyze physiological indicators such as stomatal conductance, respiration rate, and water potential to
+								assess the overall health and homeostasis of the plants.<br><br>
+	
+	
+								<b>Bird Study:</b><br><br>
+							   
+								-Choose two groups of similar bird species, with one group exposed to shade and the other group in a well-lit area.<br>
+								-Observe and record behaviors related to foraging, flight activity, and reproductive behaviors in both groups.<br>
+								-Measure physiological parameters such as metabolic rate, body temperature, energy expenditure, and body condition over a
+								specific period of time.<br>
+							</p>
+							<p>
+								<b><u>Results:</u></b><br>
+
+								-In the plant study, the shaded group would exhibit lower photosynthetic rates, reduced growth, decreased chlorophyll
+								content, and lower carbohydrate levels compared to the well-lit group.<br>
+								-In the bird study, the shaded group would show decreased foraging activity, reduced flight performance, altered
+								metabolic rates, and potentially lower body condition compared to the well-lit group.
+
+								
+							</p>
+						</section>
+					</div>
+					<script>
+						toggleInfo("4");
+					</script>
+				</section>
+			</ul>
+		</section>
+	</main>
+</body>
+
+</html>
